@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Monda&display=swap');
+
+.color {
+    background-color: red; 
+}
+.main_logo img{
+ width: 280px; 
+    margin-bottom: 150px; 
+ 
+}
+
+.main_logo {
+    text-align: center; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Monda', sans-serif;
+     text-align: center; 
+}
+
+.zapettos {
+    float: left; 
+   
+    width: 40%; 
+}
+
+.zap_p{
+    text-align: center; 
+}
+
+
+.foxxy_coffee {
+    float: left; 
+    width: 60%; 
+}
+.foxxy_h{
+    text-align: center; 
+}
+
+
+@media screen and (max-width: 600px) {
+.zapettos, img, .foxxy_coffee, .foxxy_h, .zap_p, .main_logo img, .main_logo, h2, .jackson_logo, .foxxy_logo, .jackson{
+        width: 100% !important;
+
+    }
+}
+
+.jackson {
+    float: left; 
+}
+.jackson_logo img{
+    width: 700px;
+}
+
+.jackson_h {
+    text-align: center; 
+}
+
+.zap_logo img {
+    
+    width: 60%;
+}
+
+.foxxy_logo img {
+    width: 79%; 
+}
