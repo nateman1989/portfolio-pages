@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* -- social media --*/
+
+@font-face {
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+/* ************ Mobile First ****** */
+/* ------------ Defaults ___________ */
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+body {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    color: #2F4F4F;
+    background-color: #FFFFFF;
+    text-align: center;
+    line-height: 1.2;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    margin-bottom: .5em;
+}
+
+.wrapper {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+
+
+
+}
+
+header {
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-color: #2F4F4F;
+    padding-bottom: 10.8em;
+}
+
+img {
+    width: 80%;
+    height: auto;
+
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #DCDCDC;
+}
+
+.logo img {
+    width: 250px;
+    height: auto;
+    padding-left: 1em;
+
+}
+
+article,
+aside,
+section {
+    padding: 2em 0;
+
+}
+
+
+
+
+article table {
+    background-color: #2F4F4F;
+
+}
+
+article td {
+    width: 22em;
+}
+
+table {
+    background-color: #2F4F4F;
+
+}
+
+table td {
+    color: #ffffff;
+    height: 6em;
+
+}
+
+table th {
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.tableone {
+    background-color: #2F4F4F;
+
+}
+
+
+
+.tableone td {
+    color: #ffffff;
+    height: 1.5em;
+    font-size: 1em;
+
+}
+
+.tableone th {
+    color: #ffffff;
+    height: 1.5em;
+    font-size: 1em;
+
+}
+
+
+.hero > video {
+    visibility: hiden;
+    /*Note to Mr. Tysor, Video will size correctly in different devices, delete "hidden" to see. */
+    width: 100%;
+    padding-top: 0em;
+}
+
+div.content {
+    position: absolute;
+    top: 16em;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: red;
+    text-shadow: 1px 1px #ff0000;
+
+
+}
+
+
+.row {
+    padding: 0;
+    color: #778899;
+    background-color: #E8E8E8;
+}
+
+i {
+    font-size: 2em;
+}
+
+footer {
+    background-color: #2F4F4F;
+    color: #FFFFFF;
+    padding: 2em 0;
+
+}
+
+footer ul {
+    list-style: none;
+}
+
+/*----------- menu button --------- */
+
+.toggle,
+[id^="drop"] {
+    display: none;
+}
+
+[id^="drop"]:checked + ul {
+    display: block;
+}
+
+.toggle {
+    display: block;
+}
+
+.toggle + a,
+nav ul {
+    display: none;
+}
+
+.toggle {
+    padding: 1em 0;
+}
+
+nav {
+    display: block;
+    width: 100%;
+    background-color: darkslategrey;
+    color: snow;
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    padding: .9em 0;
+    border-top: thin solid snow;
+}
+
+iframe {
+    width: 100%;
+}
+
+nav li:hover {
+    background-color: lightslategrey;
+}
+
+nav a {
+    color: snow;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: gainsboro;
+}
+
+
+
+/* ------------ Buttons --------------- */
+
+.button a {
+    font-weight: 100;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #3cb371;
+    border: 1px solid #3cb372;
+    padding: .5em 1em;
+}
+
+
+.button a:hover {
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, .25);
+    border: 1px solid #FFFFFF;
+}
+
+/* -------- Back to top button ----- */
+/* Back to Top button */
+
+#myBtn {
+    text-transform: uppercase;
+    background-color: #3cb371;
+    color: #FFFFFF;
+    padding: 2em;
+    ;
+    border-radius: 4px;
+    border: none;
+    display: none;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    z-index: 99;
+    outline: none;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background-color: #708090;
+
+}
+
+
+/* ++++++++ tablets +++++++ */
+
+@media (min-width: 768px) {
+    body {
+        text-align: left;
+    }
+
+    header {
+        display: block;
+        width: 100%;
+        height: 70px;
+        background-color: #2F4F4F;
+    }
+}
+
+.logo {
+    float: left;
+    width: 30%;
+
+
+}
+
+.toggle {
+    text-align: right;
+    padding: 1em;
+
+}
+
+nav {
+    width: 30%;
+    text-align: left;
+    float: right;
+}
+
+nav li:hover {
+    background-color: #708090;
+}
+
+.hero h2,
+.hero p {
+    padding: 0 1em;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    padding-top: 7em;
+}
+
+form {
+
+    background-color: #2e615d;
+    color: #ffffff;
+}
+
+form input {
+    background-color: #2e615d;
+    color: #ffffff;
+    width: 100%;
+    height: 2em;
+    font-size: 1.5em;
+
+}
+
+form textarea {
+    background-color: #2e615d;
+    color: #ffffff;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+article {
+    float: left;
+    width: auto;
+    padding: 1em;
+
+
+}
+
+aside {
+    float: left;
+    width: 50%;
+    padding: 1em;
+
+}
+
+
+
+.row {
+    clear: both;
+}
+
+.three_col section {
+    padding: 1em 10em;
+}
+
+
+.four_col section {
+    float: left;
+    width: 50%;
+    padding: 1em;
+    line-height: 1.5em;
+}
+
+audio {
+    width: 100%;
+}
+
+.four_col section ul {
+    list-style: none;
+}
+
+
+
+footer {
+    clear: both;
+    padding: 2em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Laptops */
+@media (min-width: 992px) {
+    .toggle {
+        display: none;
+    }
+
+    nav ul {
+        display: block;
+        list-style: none;
+        float: right;
+    }
+
+    nav ul li {
+        float: left;
+        border-top: none;
+        padding-right: 1em;
+        margin-right: 1em;
+    }
+
+    nav li:hover {
+        background-color: #2F4F4F;
+        color: #DCDCDC;
+    }
+
+    .current a {
+        color: #3cb371;
+    }
+
+
+
+    audio {
+        max-width: 100%;
+        padding: 1em 0;
+        margin-bottom: 1.5em;
+
+    }
+
+
+
+    .three_colz section {
+        float: left;
+        width: 33.333%;
+        padding: 1em;
+        margin-top: 8em;
+        line-height: 1.5em;
+
+    }
+
+    three_colzz section {
+        float: left;
+        width: 30%;
+
+
+        line-height: 1.5em;
+
+    }
+
+    .three_colz a {
+        color: #828282;
+    }
+
+    .three_colz a:hover {
+        color: #DCDCDC;
+    }
+
+    .three_colz ul {
+        list-style: none;
+    }
+
+    .three_col section {
+        float: left;
+        width: 33.333%;
+        padding: 1em;
+        line-height: 1.5em;
+
+
+    }
+
+    .three_col section ul {
+        list-style: none;
+    }
+
+    .four_col section {
+        width: 25%;
+
+
+    }
+
+    .banner h1 {
+        position: absolute;
+        top: 1em;
+        padding-top: 7em;
+        left: 21em;
+        text-align: center;
+        font-size: 2em;
+        font-weight: bold;
+        color: #ffffff;
+        text-shadow: 9px 9px 9px #000000;
+
+
+    }
+
+
+
+    /* This is Table and Form Formatting */
+
+
+
+    /* End */
+    @media (min-width: 1100px) {
+
+        /* Remove */
+        .wrapper {
+            margin: 0 auto;
+            width: 1281px;
+        }
+
+        .top {
+            right: 4.9em;
+        }
+
+    }
+}
