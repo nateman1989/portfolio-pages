@@ -29,10 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.foxxy_coffee {
-    float: left; 
-    width: 60%; 
-}
+
 .foxxy_h{
     text-align: center; 
 }
@@ -45,16 +42,12 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-.jackson {
-    float: left; 
-}
+
 .jackson_logo img{
     width: 700px;
 }
 
-.jackson_h {
-    text-align: center; 
-}
+
 
 .zap_logo img {
     
