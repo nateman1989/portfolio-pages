@@ -18,42 +18,4 @@ h1, h2, h3, h4, h5, h6 {
      text-align: center; 
 }
 
-.zapettos {
-    float: left; 
-   
-    width: 40%; 
-}
 
-.zap_p{
-    text-align: center; 
-}
-
-
-
-.foxxy_h{
-    text-align: center; 
-}
-
-
-@media screen and (max-width: 600px) {
-.zapettos, img, .foxxy_coffee, .foxxy_h, .zap_p, .main_logo img, .main_logo, h2, .jackson_logo, .foxxy_logo, .jackson{
-        width: 100% !important;
-
-    }
-}
-
-
-.jackson_logo img{
-    width: 700px;
-}
-
-
-
-.zap_logo img {
-    
-    width: 60%;
-}
-
-.foxxy_logo img {
-    width: 79%; 
-}
